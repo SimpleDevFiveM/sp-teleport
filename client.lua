@@ -10,7 +10,7 @@ CreateThread(function()
         })
     end
     lib.registerContext({
-        id = 'menu',
+        id = 'tmenu',
         title = 'Teleport Menu',
         options = options
     })
@@ -31,7 +31,7 @@ CreateThread(function()
             if dist < 1.5 then
                 sleep = 5
                 if IsControlJustReleased(0, 38) then
-                    lib.showContext('menu')
+                    lib.showContext('tmenu')
                 end
             elseif dist > 2 then
                 lib.hideTextUI()
