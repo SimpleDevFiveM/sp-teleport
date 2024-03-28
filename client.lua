@@ -9,6 +9,7 @@ CreateThread(function()
             end
         })
     end
+		
     lib.registerContext({
         id = 'tmenu',
         title = 'Teleport Menu',
