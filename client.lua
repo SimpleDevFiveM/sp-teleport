@@ -1,6 +1,6 @@
-local options = {}
-
 CreateThread(function()
+    local options = {}
+
     for _, v in ipairs(Config.Teleport) do
         table.insert(options, {
             title = v.label,
